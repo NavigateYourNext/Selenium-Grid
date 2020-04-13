@@ -9,6 +9,7 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 
 //1. Open CMD and goto the folder where you kept Selenium Standalone file and enter command as java -jar selenium-server-standalone-3.141.59.jar -role hub (To register as hub)
 //2. Open CMD and goto the folder where you kept Selenium Standalone file and enter commadn as java -Dwebdriver.chrome.driver="D:\ChromeDriver\chromedriver.exe" -jar selenium-server-standalone-3.141.59.jar -role node -hub http://192.168.0.176:4444/grid/register (To register as node)
+//3. Check Hub Path & Node Path accordingly. It may change.
 //3. Write below code as a sample and run it.
 
 public class SeleniumGrid {
